@@ -1519,7 +1519,7 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "ClassLibrary1/1.0.0": {
+      "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
@@ -1527,10 +1527,10 @@
           "Moq": "4.14.1"
         },
         "compile": {
-          "bin/placeholder/ClassLibrary1.dll": {}
+          "bin/placeholder/DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ClassLibrary1.dll": {}
+          "bin/placeholder/DAL.dll": {}
         }
       }
     }
@@ -5411,15 +5411,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "ClassLibrary1/1.0.0": {
+    "DAL/1.0.0": {
       "type": "project",
-      "path": "../../ClassLibrary1/ClassLibrary1/ClassLibrary1.csproj",
-      "msbuildProject": "../../ClassLibrary1/ClassLibrary1/ClassLibrary1.csproj"
+      "path": "../../ClassLibrary1/ClassLibrary1/DAL.csproj",
+      "msbuildProject": "../../ClassLibrary1/ClassLibrary1/DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "ClassLibrary1 >= 1.0.0",
+      "DAL >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.6.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Moq >= 4.14.1",
@@ -5457,8 +5457,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj"
+            "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\DAL.csproj": {
+              "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\DAL.csproj"
             }
           }
         }
