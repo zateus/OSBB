@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ClassLibrary1.EF
 {
-    class InquiryContext
+    public class InquiryContext
       : DbContext
     {
         public DbSet<Inquiry> Inquiries { get; set; }
-        public DbSet<TemparatureData> TemparatureDatas { get; set; }
+        public DbSet<TemperatureData> TemparatureDatas { get; set; }
         public DbSet<Localitycs> Localitycs { get; set; }
 
         public InquiryContext(DbContextOptions options)

@@ -6,7 +6,7 @@ using ClassLibrary1.Entities;
 
 namespace ClassLibrary1.UnitOfWork
 {
-    interface IUnitOfWork : IDisposable
+   public interface IUnitOfWork : IDisposable
     {
         IInquiry Inquiries { get; }
         ILocalitycs Localitycs { get; }

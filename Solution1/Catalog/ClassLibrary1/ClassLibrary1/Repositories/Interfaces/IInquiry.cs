@@ -5,7 +5,7 @@ using ClassLibrary1.Entities;
 
 namespace ClassLibrary1.Repositories.Interfaces
 {
-    interface IInquiry
+    public interface IInquiry
         : IRepository<Inquiry>
     {
 

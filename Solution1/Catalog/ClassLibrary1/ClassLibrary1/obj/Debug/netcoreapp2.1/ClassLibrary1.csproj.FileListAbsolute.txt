@@ -13,3 +13,6 @@ C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Catalog\ClassLi
 C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Catalog\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp2.1\ClassLibrary1.AssemblyInfo.cs
 C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Catalog\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp2.1\ClassLibrary1.dll
 C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Catalog\ClassLibrary1\ClassLibrary1\obj\Debug\netcoreapp2.1\ClassLibrary1.pdb
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Catalog\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp2.1\ClassLibrary1.deps.json
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Catalog\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp2.1\ClassLibrary1.dll
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Catalog\ClassLibrary1\ClassLibrary1\bin\Debug\netcoreapp2.1\ClassLibrary1.pdb

@@ -4,11 +4,11 @@ using System.Text;
 
 namespace ClassLibrary1.Entities
 {
-    class Inquiry
+    public class Inquiry
     {
         public int InquiryID { get; set; }
         public char Date { get; set; }
-        public List<TemparatureData> Data { get; set; }
+        public List<TemperatureData> Data { get; set; }
         public List<Localitycs> Place { get; set; }
     }
 }

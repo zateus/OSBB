@@ -5,8 +5,8 @@ using ClassLibrary1.Entities;
 
 namespace ClassLibrary1.Repositories.Interfaces
 {
-    interface ITemperatureData
-        : IRepository<TemparatureData>
+   public interface ITemperatureData
+        : IRepository<TemperatureData>
     {
     }
 }

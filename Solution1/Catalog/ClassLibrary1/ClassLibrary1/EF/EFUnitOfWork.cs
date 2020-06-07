@@ -9,14 +9,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ClassLibrary1.EF
 {
-    class EFUnitOfWork
-         : IUnitOfWork
+    public class EFUnitOfWork
+          : IUnitOfWork
     {
         private InquiryContext db;
         private IInquiry Inquiry;
         private ITemperatureData TemperatureData;
-        private ILocalitycs Locality;
-​
+        private ILocalitycs Locality;​
         public EFUnitOfWork(DbContextOptions options)
         {
             db = new InquiryContext(options);
@@ -38,17 +37,16 @@ namespace ClassLibrary1.EF
                     Locality = new LocalyticsRepository(db);
                 return Locality;
             }
-        }​
+        }
         public ITemperatureData TemperatureDatas
         {
             get
             {
                 if (TemperatureData == null)
-                    TemperatureData = new TemparatureDataRepository(db);
+                    TemperatureData = new TemperatureDataRepository(db);
                 return TemperatureData;
             }
-        }
-​
+        }​
         public void Save()
         {
             db.SaveChanges();

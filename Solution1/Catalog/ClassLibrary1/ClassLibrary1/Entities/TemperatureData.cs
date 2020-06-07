@@ -4,11 +4,12 @@ using System.Text;
 
 namespace ClassLibrary1.Entities
 {
-    class TemparatureData
+   public class TemperatureData
     {
-        public int TemparatureDataID { get; set; }
-        public double Temparature { get; set; }
+        public int TemperatureDataID { get; set; }
+        public double Temperature { get; set; }
         public double Huminity { get; set; }
         public int WindPower { get; set; }
+        public Inquiry Inquiry { get; set; }
     }
 }

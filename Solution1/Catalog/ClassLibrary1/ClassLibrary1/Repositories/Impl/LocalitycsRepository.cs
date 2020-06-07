@@ -7,7 +7,7 @@ using ClassLibrary1.EF;
 
 namespace ClassLibrary1.Repositories.Impl
 {
-    class LocalyticsRepository
+   public class LocalyticsRepository
            : BaseRepository<Localitycs>, ILocalitycs
     {
 ​

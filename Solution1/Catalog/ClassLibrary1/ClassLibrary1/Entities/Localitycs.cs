@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassLibrary1.Entities
 {
-    class Localitycs
+    public class Localitycs
     {
         public int LocalitycsID { get; set; }
         public char Locality { get; set; }

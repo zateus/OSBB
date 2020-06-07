@@ -7,11 +7,11 @@ using ClassLibrary1.EF;
 
 namespace ClassLibrary1.Repositories.Impl
 {
-    class TemparatureDataRepository
-           : BaseRepository<TemparatureData>, ITemperatureData
+    public class TemperatureDataRepository
+         : BaseRepository<TemperatureData>, ITemperatureData
     {
 ​
-        internal TemparatureDataRepository(InquiryContext context)
+        internal TemperatureDataRepository(InquiryContext context)
             : base(context)
         {
         }
