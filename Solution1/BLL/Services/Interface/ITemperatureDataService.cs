@@ -7,6 +7,6 @@ namespace BLL.Services.Interface
 {
     interface ITemperatureDataService
     {
-        IEnumerable<TemperatureDataDTO> GetStreets(int page);
+        IEnumerable<TemperatureDataDTO> GetTemperatureDatas(int page);
     }
 }
