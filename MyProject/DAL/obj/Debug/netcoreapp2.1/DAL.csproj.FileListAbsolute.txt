@@ -1,0 +1,8 @@
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\MyProject\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\MyProject\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\MyProject\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\MyProject\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\MyProject\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\MyProject\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\MyProject\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\MyProject\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
