@@ -4016,7 +4016,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
+      "sha512": "rruzprBh0A7atRAsIBbCNDVl9NrezePwyfTmFMS07o4fMIJopuc8pWLKQTqzFCEKuTYHwXu9f7R0sjj0GYdN8w==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
@@ -4799,7 +4799,7 @@
       ]
     },
     "System.Runtime.Serialization.Json/4.0.2": {
-      "sha512": "+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
+      "sha512": "yd+urrgBWZdQy+L2TOkQo8RfdlR4oEHY0jIh8c2ppmub6PZ76mqLXhlk/vX8iuOwBhuPwDvpePVf2mgEz6GVkA==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.2",
       "files": [
@@ -5855,11 +5855,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\DAL.Tests\\DAL.Tests\\DAL.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL.Tests\\DAL.Tests\\DAL.Tests.csproj",
       "projectName": "DAL.Tests",
-      "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\DAL.Tests\\DAL.Tests\\DAL.Tests.csproj",
+      "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL.Tests\\DAL.Tests\\DAL.Tests.csproj",
       "packagesPath": "C:\\Users\\zahar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\DAL.Tests\\DAL.Tests\\obj\\",
+      "outputPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL.Tests\\DAL.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
