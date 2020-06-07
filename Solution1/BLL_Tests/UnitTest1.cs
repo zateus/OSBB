@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace BLL.Tests
+namespace BLL_Tests
 {
     public class UnitTest1
     {
