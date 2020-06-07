@@ -1,6 +1,6 @@
 ﻿using System;
 using Xunit;
-using Solution1.ClassLibrary1.Repositories.Impl;
+using ;
 using Catalog.DAL.EF;
 using Microsoft.EntityFrameworkCore;
 using Catalog.DAL.Entities;
