@@ -15,7 +15,7 @@ namespace Singleton
             Console.WriteLine(inquiry.Singleton.ID);
 
             // у нас не получится изменить ОС, так как объект уже создан    
-            inquiry.Singleton = Singleton.getInstance("Windows 10");
+            inquiry.Singleton = Singleton.getInstance("10");
             Console.WriteLine(inquiry.Singleton.ID);
 
             Console.ReadLine();
