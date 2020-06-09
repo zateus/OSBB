@@ -58,9 +58,10 @@ namespace BLL.Tests
 
             // Assert
             Assert.True(
-                actualTemperatureDataDto.TemperatureDataId == 1
-                && actualTemperatureDataDto.Name == "testN"
-                && actualTemperatureDataDto.Description == "testD"
+                actualTemperatureDataDto.TemperatureDataID == 1
+                && actualTemperatureDataDto.Temperature == 15
+                && actualTemperatureDataDto.Huminity == 23.6
+                && actualTemperatureDataDto.WindPower == 2.7
                 );
         }
 
