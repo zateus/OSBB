@@ -10,5 +10,6 @@ namespace ClassLibrary1.Entities
         public char Date { get; set; }
         public List<TemperatureData> Data { get; set; }
         public List<Localitycs> Place { get; set; }
+       
     }
 }
