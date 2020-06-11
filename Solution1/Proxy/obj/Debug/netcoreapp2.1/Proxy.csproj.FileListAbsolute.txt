@@ -1,0 +1,6 @@
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Proxy\bin\Debug\netcoreapp2.1\Proxy.deps.json
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Proxy\bin\Debug\netcoreapp2.1\Proxy.dll
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Proxy\obj\Debug\netcoreapp2.1\Proxy.csprojAssemblyReference.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Proxy\obj\Debug\netcoreapp2.1\Proxy.csproj.CoreCompileInputs.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Proxy\obj\Debug\netcoreapp2.1\Proxy.AssemblyInfoInputs.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Proxy\obj\Debug\netcoreapp2.1\Proxy.AssemblyInfo.cs

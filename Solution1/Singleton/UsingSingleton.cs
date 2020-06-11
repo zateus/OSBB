@@ -10,8 +10,10 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            Inquiry inquiry = new Inquiry();
-            inquiry.InquiryID = 1;
+            Inquiry inquiry = new Inquiry
+            {
+                InquiryID = 1
+            };
             Console.WriteLine(inquiry.Singleton.ID);
 
             // у нас не получится изменить ОС, так как объект уже создан    
