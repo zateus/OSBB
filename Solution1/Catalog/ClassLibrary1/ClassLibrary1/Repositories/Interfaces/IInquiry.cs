@@ -8,6 +8,6 @@ namespace ClassLibrary1.Repositories.Interfaces
     public interface IInquiry
         : IRepository<Inquiry>
     {
-
+        
     }
 }

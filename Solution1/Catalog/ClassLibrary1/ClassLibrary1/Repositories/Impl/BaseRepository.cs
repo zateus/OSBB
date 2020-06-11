@@ -59,7 +59,7 @@ namespace ClassLibrary1.Repositories.Impl
         {
             _context.Entry(item).State = EntityState.Modified;
         }
-        void Request() { }
+        public void Request() { }
     }
 
 }

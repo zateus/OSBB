@@ -7,10 +7,9 @@ using ClassLibrary1.EF;
 
 namespace ClassLibrary1.Repositories.Impl
 {
-    public class InquiryRepository
+    public abstract class InquiryRepository
            : BaseRepository<Inquiry>, IInquiry
     {
-​
         internal InquiryRepository(InquiryContext context)
             : base(context)
         {
