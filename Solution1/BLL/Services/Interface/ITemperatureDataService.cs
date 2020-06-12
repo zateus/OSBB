@@ -5,7 +5,7 @@ using BLL.DTO;
 
 namespace BLL.Services.Interface
 {
-    interface ITemperatureDataService
+    public interface ITemperatureDataService
     {
         IEnumerable<TemperatureDataDTO> GetTemperatureDatas(int page);
     }

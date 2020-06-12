@@ -8,12 +8,12 @@ using Moq;
 using CCL.Security;
 using CCL;
 using BLL.Services.Interface;
-using BLL.Services.IMPL;
 using CCL.Security.Identity;
 using System;
 using System.Collections.Generic;
 using Xunit;
 using System.Linq;
+using Catalog.BLL.Services.Impl;
 
 namespace BLL.Tests
 {

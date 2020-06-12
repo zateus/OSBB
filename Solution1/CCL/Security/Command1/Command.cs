@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CCL.Security
 {
-    interface Command
+    public interface Command
     {
          void Execute();
          void Undo();
