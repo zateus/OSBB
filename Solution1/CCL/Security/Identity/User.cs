@@ -17,6 +17,8 @@ namespace CCL.Security.Identity
         public string Name { get; }
         public int InquiryID { get; }
         protected string UserType { get; }
+        public abstract void VisitElementA(Inquiry elemA);
+        public abstract void VisitElementB(Inquiry elemB);
     }
 }
 

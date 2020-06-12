@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using CCL.Security.Identity;
+using ClassLibrary1.Repositories.Impl;
+using ClassLibrary1.Repositories.Interfaces;
+using ClassLibrary1.Entities;
 
 namespace Visitor
 {
@@ -7,83 +12,52 @@ namespace Visitor
         void Main()
         {
             var structure = new ObjectStructure();
-            structure.Add(new ElementA());
-            structure.Add(new ElementB());
+            structure.Add(new BaseRepository<Inquiry>());
+            
             structure.Accept(new ConcreteVisitor1());
-            structure.Accept(new ConcreteVisitor2());
         }
     }
 
-    abstract class Visitor
-    {
-        public abstract void VisitElementA(ElementA elemA);
-        public abstract void VisitElementB(ElementB elemB);
-    }
+   
 
-    class ConcreteVisitor1 : Visitor
+    class ConcreteVisitor1 : User
     {
-        public override void VisitElementA(ElementA elementA)
+        
+   
+
+        public  void VisitElementA(BaseRepository<Inquiry> elemA)
         {
-            elementA.OperationA();
+            elemA.OperationA();
         }
-        public override void VisitElementB(ElementB elementB)
+
+      
+
+        public void VisitElementB(BaseRepository<Inquiry> elemB)
         {
-            elementB.OperationB();
+            elemB.OperationA();
         }
     }
-    class ConcreteVisitor2 : Visitor
-    {
-        public override void VisitElementA(ElementA elementA)
-        {
-            elementA.OperationA();
-        }
-        public override void VisitElementB(ElementB elementB)
-        {
-            elementB.OperationB();
-        }
-    }
+    
 
     class ObjectStructure
     {
-        List<Element> elements = new List<Element>();
-        public void Add(Element element)
+        List<BaseRepository<Inquiry>> elements = new List<BaseRepository<Inquiry>>();
+        public void Add(BaseRepository<Inquiry> element)
         {
             elements.Add(element);
         }
-        public void Remove(Element element)
+        public void Remove(BaseRepository<Inquiry> element)
         {
             elements.Remove(element);
         }
-        public void Accept(Visitor visitor)
+        public void Accept(User visitor)
         {
-            foreach (Element element in elements)
+            foreach (BaseRepository<Inquiry> element in elements)
                 element.Accept(visitor);
         }
     }
 
-    abstract class Element
-    {
-        public abstract void Accept(Visitor visitor);
-        public string SomeState { get; set; }
-    }
+   
 
-    class ElementA : Element
-    {
-        public override void Accept(Visitor visitor)
-        {
-            visitor.VisitElementA(this);
-        }
-        public void OperationA()
-        { }
-    }
-
-    class ElementB : Element
-    {
-        public override void Accept(Visitor visitor)
-        {
-            visitor.VisitElementB(this);
-        }
-        public void OperationB()
-        { }
-    }
+    
 }

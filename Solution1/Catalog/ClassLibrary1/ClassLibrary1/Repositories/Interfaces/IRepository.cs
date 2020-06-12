@@ -13,6 +13,8 @@ namespace ClassLibrary1.Repositories.Interfaces
         void Update(T item);
         void Delete(int id);
         void Request();
+        public abstract void Accept(Visitor visitor);
+        public string SomeState { get; set; }
     }
 
 }

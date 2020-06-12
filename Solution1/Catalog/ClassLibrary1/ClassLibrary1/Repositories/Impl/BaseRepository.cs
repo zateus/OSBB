@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using ClassLibrary1.Repositories.Interfaces;
 using ClassLibrary1.EF;
-
+using CCL.Security.Identity;
 namespace ClassLibrary1.Repositories.Impl
 {
 
@@ -16,6 +16,8 @@ namespace ClassLibrary1.Repositories.Impl
         private readonly DbSet<T> _set;
         private readonly DbContext _context;
 ​
+public string SomeState { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public BaseRepository(DbContext context)
         {
             _context = context;
@@ -60,6 +62,13 @@ namespace ClassLibrary1.Repositories.Impl
             _context.Entry(item).State = EntityState.Modified;
         }
         public void Request() { }
+        public  void Accept(User visitor)
+        {
+            visitor.VisitElementA(this);
+        }
+        public void OperationA()
+        { }
+
     }
 
 }

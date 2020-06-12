@@ -1514,11 +1514,26 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "CCL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "AutoMapper": "9.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.5"
+        },
+        "compile": {
+          "bin/placeholder/CCL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CCL.dll": {}
+        }
+      },
       "ClassLibrary1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "AutoMapper": "9.0.0",
+          "CCL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Moq": "4.14.1"
         },
@@ -5433,6 +5448,11 @@
         "xunit.runner.visualstudio.2.4.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "CCL/1.0.0": {
+      "type": "project",
+      "path": "../../../CCL/CCL.csproj",
+      "msbuildProject": "../../../CCL/CCL.csproj"
     },
     "ClassLibrary1/1.0.0": {
       "type": "project",
