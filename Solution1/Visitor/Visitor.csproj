@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Catalog\ClassLibrary1\ClassLibrary1\ClassLibrary1.csproj" />
+    <ProjectReference Include="..\CCL\CCL.csproj" />
+  </ItemGroup>
+
 </Project>

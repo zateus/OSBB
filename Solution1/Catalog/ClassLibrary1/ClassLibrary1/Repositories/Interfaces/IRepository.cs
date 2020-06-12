@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using CCL.Security.Identity;
 namespace ClassLibrary1.Repositories.Interfaces
 {
     public interface IRepository<T> where T : class
@@ -13,8 +13,8 @@ namespace ClassLibrary1.Repositories.Interfaces
         void Update(T item);
         void Delete(int id);
         void Request();
-        public abstract void Accept(Visitor visitor);
-        public string SomeState { get; set; }
+        void Accept(User visitor);
+        string SomeState { get; set; }
     }
 
 }

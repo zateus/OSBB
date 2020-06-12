@@ -11,6 +11,16 @@ namespace CCL.Security.Identity
             : base(userId, name, osbbId, nameof(Admin))
         {
         }
+
+        public override void VisitElementA(Inquiry elemA)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void VisitElementB(Inquiry elemB)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

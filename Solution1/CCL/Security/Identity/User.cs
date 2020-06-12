@@ -19,6 +19,19 @@ namespace CCL.Security.Identity
         protected string UserType { get; }
         public abstract void VisitElementA(Inquiry elemA);
         public abstract void VisitElementB(Inquiry elemB);
+        Command command;
+        public void SetCommand(Command c)
+        {
+            command = c;
+        }
+        public void Run()
+        {
+            command.Execute();
+        }
+        public void Cancel()
+        {
+            command.Undo();
+        }
     }
 }
 
