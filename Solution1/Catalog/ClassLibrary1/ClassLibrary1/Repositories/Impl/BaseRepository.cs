@@ -64,7 +64,8 @@ public string SomeState { get => throw new NotImplementedException(); set => thr
         public void Request() { }
         public  void Accept(User visitor)
         {
-            visitor.VisitElementA(this);
+            BaseRepository<T> baseRepository = this;
+            visitor.VisitElementA(baseRepository);
         }
         public void OperationA()
         { }

@@ -4,7 +4,7 @@ using System.Text;
 using CCL.Security.Identity;
 namespace CCL.Security
 {
-    class UsingCommand: Command
+    public class UsingCommand: Command
     {
         Admin receiver;
         public UsingCommand(Admin r)

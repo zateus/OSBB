@@ -3,12 +3,20 @@ using ClassLibrary1.Repositories.Interfaces;
 using ClassLibrary1.Repositories.Impl;
 using ClassLibrary1.Entities;
 using System.Collections.Generic;
+using CCL.Security.Identity;
 
 namespace Proxy
 {
     public class Proxy : IInquiry
     {
         InquiryRepository InquiryRepository;
+
+        public string SomeState { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public void Accept(User visitor)
+        {
+            throw new NotImplementedException();
+        }
 
         public void Create(Inquiry item)
         {

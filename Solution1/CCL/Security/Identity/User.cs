@@ -32,6 +32,23 @@ namespace CCL.Security.Identity
         {
             command.Undo();
         }
+
+        public void VisitElementA<T>(global::ClassLibrary1.Repositories.Impl.BaseRepository<T> baseRepository) where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public void VisitElementA<T>(global::ClassLibrary1.Repositories.Impl.BaseRepository<T> baseRepository) where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public void VisitElementA<T>(global::ClassLibrary1.Repositories.Impl.BaseRepository<T> baseRepository) where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public abstract void VisitElementA<T>(global::ClassLibrary1.Repositories.Impl.BaseRepository<T> baseRepository) where T : class;
     }
 }
 
