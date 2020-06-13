@@ -1916,8 +1916,8 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "AutoMapper": "9.0.0",
+          "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj": "1.0.0",
           "CCL": "1.0.0",
-          "ClassLibrary1": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5"
         },
         "compile": {
@@ -6805,6 +6805,15 @@
       "level": "Error",
       "message": "Не удалось найти проект \"C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
       "libraryId": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
       ]
