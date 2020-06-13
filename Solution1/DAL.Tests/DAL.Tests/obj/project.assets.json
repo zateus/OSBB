@@ -1514,26 +1514,12 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "CCL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "AutoMapper": "9.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.5"
-        },
-        "compile": {
-          "bin/placeholder/CCL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CCL.dll": {}
-        }
-      },
       "ClassLibrary1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "AutoMapper": "9.0.0",
-          "CCL": "1.0.0",
+          "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Moq": "4.14.1"
         },
@@ -5449,15 +5435,10 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "CCL/1.0.0": {
-      "type": "project",
-      "path": "../../../CCL/CCL.csproj",
-      "msbuildProject": "../../../CCL/CCL.csproj"
-    },
     "ClassLibrary1/1.0.0": {
       "type": "project",
-      "path": "../../ClassLibrary1/ClassLibrary1/ClassLibrary1.csproj",
-      "msbuildProject": "../../ClassLibrary1/ClassLibrary1/ClassLibrary1.csproj"
+      "path": "../../DAL/ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../../DAL/ClassLibrary1/ClassLibrary1.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5479,11 +5460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\DAL.Tests\\DAL.Tests\\DAL.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL.Tests\\DAL.Tests\\DAL.Tests.csproj",
       "projectName": "DAL.Tests",
-      "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\DAL.Tests\\DAL.Tests\\DAL.Tests.csproj",
+      "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL.Tests\\DAL.Tests\\DAL.Tests.csproj",
       "packagesPath": "C:\\Users\\zahar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\DAL.Tests\\DAL.Tests\\obj\\",
+      "outputPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL.Tests\\DAL.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5502,8 +5483,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj"
+            "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL\\ClassLibrary1\\ClassLibrary1.csproj"
             }
           }
         }
@@ -5556,5 +5537,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

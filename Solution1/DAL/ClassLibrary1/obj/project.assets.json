@@ -1079,20 +1079,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
-      },
-      "CCL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "AutoMapper": "9.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.5"
-        },
-        "compile": {
-          "bin/placeholder/CCL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CCL.dll": {}
-        }
       }
     }
   },
@@ -4346,17 +4332,12 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
-    },
-    "CCL/1.0.0": {
-      "type": "project",
-      "path": "../../../CCL/CCL.csproj",
-      "msbuildProject": "../../../CCL/CCL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "AutoMapper >= 9.0.0",
-      "CCL >= 1.0.0",
+      "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj",
       "Microsoft.EntityFrameworkCore >= 3.1.5",
       "Microsoft.NETCore.App >= 2.1.0",
       "Moq >= 4.14.1"
@@ -4369,11 +4350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectUniqueName": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL\\ClassLibrary1\\ClassLibrary1.csproj",
       "projectName": "ClassLibrary1",
-      "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL\\ClassLibrary1\\ClassLibrary1.csproj",
       "packagesPath": "C:\\Users\\zahar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\Catalog\\ClassLibrary1\\ClassLibrary1\\obj\\",
+      "outputPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\DAL\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4392,8 +4373,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\CCL\\CCL.csproj": {
-              "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\Solution1\\CCL\\CCL.csproj"
+            "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj": {
+              "projectPath": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj"
             }
           }
         }
@@ -4433,5 +4414,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\Users\\zahar\\OneDrive\\Документы\\GitHub\\OSBB\\CCL\\CCL.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }
