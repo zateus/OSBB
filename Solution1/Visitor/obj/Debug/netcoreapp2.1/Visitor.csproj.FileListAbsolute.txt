@@ -1,0 +1,6 @@
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Visitor\obj\Debug\netcoreapp2.1\Visitor.csprojAssemblyReference.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Visitor\obj\Debug\netcoreapp2.1\Visitor.csproj.CoreCompileInputs.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Visitor\obj\Debug\netcoreapp2.1\Visitor.AssemblyInfoInputs.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Visitor\obj\Debug\netcoreapp2.1\Visitor.AssemblyInfo.cs
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Visitor\bin\Debug\netcoreapp2.1\CCL.dll
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Visitor\bin\Debug\netcoreapp2.1\ClassLibrary1.dll

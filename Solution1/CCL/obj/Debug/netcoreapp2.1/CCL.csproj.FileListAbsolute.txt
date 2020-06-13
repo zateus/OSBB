@@ -1,0 +1,9 @@
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\bin\Debug\netcoreapp2.1\CCL.deps.json
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\bin\Debug\netcoreapp2.1\CCL.dll
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\bin\Debug\netcoreapp2.1\CCL.pdb
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\obj\Debug\netcoreapp2.1\CCL.csprojAssemblyReference.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\obj\Debug\netcoreapp2.1\CCL.csproj.CoreCompileInputs.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\obj\Debug\netcoreapp2.1\CCL.AssemblyInfoInputs.cache
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\obj\Debug\netcoreapp2.1\CCL.AssemblyInfo.cs
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\obj\Debug\netcoreapp2.1\CCL.dll
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\CCL\obj\Debug\netcoreapp2.1\CCL.pdb

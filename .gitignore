@@ -1,2 +1,8 @@
 
+<<<<<<< HEAD
 *.lock
+=======
+Solution1/.vs/Solution1/v15/Server/sqlite3/db.lock
+Solution1/DAL.Tests/.vs/DAL.Tests/v15/Server/sqlite3/db.lock
+MyProject/.vs/MyProject/v15/Server/sqlite3/db.lock
+>>>>>>> ggg
