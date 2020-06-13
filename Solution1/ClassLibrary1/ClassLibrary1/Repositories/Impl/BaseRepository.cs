@@ -9,7 +9,7 @@ using CCL.Security.Identity;
 namespace ClassLibrary1.Repositories.Impl
 {
 
-    public abstract class BaseRepository<T>
+    public  class BaseRepository<T>
         : IRepository<T>
         where T : class
     {

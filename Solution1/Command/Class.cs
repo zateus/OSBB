@@ -8,7 +8,7 @@ namespace Command
     {
         void Main()
         {
-            User invoker = new User();
+            User invoker = new User(1,"Fag",3,"User");
             Admin receiver = new Admin(2,"Alex",12);
             UsingCommand command = new UsingCommand(receiver);
             invoker.SetCommand(command);

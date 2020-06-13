@@ -4,15 +4,16 @@ using CCL.Security.Identity;
 using ClassLibrary1.Repositories.Impl;
 using ClassLibrary1.Repositories.Interfaces;
 using ClassLibrary1.Entities;
-
+using Microsoft.EntityFrameworkCore;
 namespace Visitor
 {
     class Client
     {
         void Main()
         {
+            DbContext context = new DbContext();
             var structure = new ObjectStructure();
-            structure.Add(new BaseRepository<Inquiry>());
+            structure.Add(new BaseRepository<Inquiry>( context));
             
             structure.Accept(new ConcreteVisitor1());
         }
@@ -22,19 +23,29 @@ namespace Visitor
 
     class ConcreteVisitor1 : User
     {
-        
-   
+
+        User User = new User(1, "B", 3, "D");
 
         public  void VisitElementA(BaseRepository<Inquiry> elemA)
         {
             elemA.OperationA();
         }
 
-      
+        public void VisitElementA(Inquiry elemA)
+        {
+            throw new NotImplementedException();
+        }
+
+       
 
         public void VisitElementB(BaseRepository<Inquiry> elemB)
         {
             elemB.OperationA();
+        }
+
+        public void VisitElementB(Inquiry elemB)
+        {
+            throw new NotImplementedException();
         }
     }
     

@@ -2,3 +2,4 @@ C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Command\obj\Deb
 C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Command\obj\Debug\netcoreapp2.1\Command.csproj.CoreCompileInputs.cache
 C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Command\obj\Debug\netcoreapp2.1\Command.AssemblyInfoInputs.cache
 C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Command\obj\Debug\netcoreapp2.1\Command.AssemblyInfo.cs
+C:\Users\zahar\OneDrive\Документы\GitHub\OSBB\Solution1\Command\bin\Debug\netcoreapp2.1\CCL.dll

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CCL.Security.Identity
 {
-    public abstract class User
+    public  class User
     {
         public User(int userId, string name, int InquiryId, string userType)
         {
@@ -17,8 +17,8 @@ namespace CCL.Security.Identity
         public string Name { get; }
         public int InquiryID { get; }
         protected string UserType { get; }
-        public abstract void VisitElementA(Inquiry elemA);
-        public abstract void VisitElementB(Inquiry elemB);
+        public void VisitElementA(Inquiry elemA) { }
+        public  void VisitElementB(Inquiry elemB) { }
         Command command;
         public void SetCommand(Command c)
         {
@@ -33,22 +33,7 @@ namespace CCL.Security.Identity
             command.Undo();
         }
 
-        public void VisitElementA<T>(global::ClassLibrary1.Repositories.Impl.BaseRepository<T> baseRepository) where T : class
-        {
-            throw new NotImplementedException();
-        }
-
-        public void VisitElementA<T>(global::ClassLibrary1.Repositories.Impl.BaseRepository<T> baseRepository) where T : class
-        {
-            throw new NotImplementedException();
-        }
-
-        public void VisitElementA<T>(global::ClassLibrary1.Repositories.Impl.BaseRepository<T> baseRepository) where T : class
-        {
-            throw new NotImplementedException();
-        }
-
-        public abstract void VisitElementA<T>(global::ClassLibrary1.Repositories.Impl.BaseRepository<T> baseRepository) where T : class;
+       
     }
 }
 
